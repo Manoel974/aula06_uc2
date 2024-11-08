@@ -1,0 +1,5 @@
+df_ ordenado = df_agrupado.sort_value(by='TotalEstoque', ascending=false)
+
+print(df_ordenado[['NomeProduto','TotalEstoque']])
+
+print(f'\nTotal...)
